@@ -1,0 +1,102 @@
+/*nav bar*/
+.nav-item{
+    font-size: 150%;
+}
+.nav-link {
+    font-weight: 500;
+}
+.nav-item:hover {
+    background-color: rgba(0, 0, 0, 30%);
+    border-radius: 10%;
+}
+
+/*Post Title*/
+.header {
+	background-image: linear-gradient(to bottom, rgba(52, 58, 40, 0.2), rgba(52, 58, 40, 0.6)), url('../img/backgroundMain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-color: #021f3b;
+    padding: 180px 0px 150px 0px;
+}
+.header-heading {
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 1px;
+    font-family: sans-srif !important;
+}
+.header-subheading {
+    font-size: 35px;
+    font-weight: 500 !important;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif !important;
+}
+.headerTime{
+	font-size: 20px;
+	color:white;
+	font-weight:300;
+	font-style:italic;
+	font-family: sans-serif-font !important;
+}
+.card-hover:hover{
+    margin-top:-.25rem !important;
+    margin-left: .25rem !important;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3) !important;
+}
+.card{
+    text-decoration: none !important;
+    color: white !important;
+}
+#about{
+    border-top: #021f3b solid 2px;
+}
+.sticky {
+	background-color: #446cb3;
+}
+
+/*content*/
+#content img {
+	width: 100%;
+	height: auto;
+}
+#content h2{
+	color: #3d85c6;
+	font-size: 250%;
+}
+#content h3{
+	color: #6aa84f;
+	font-size: 150%;
+}
+#content p{
+	font-size: 120% !important;
+}
+#postItem :hover{
+	color: #3d85c6;
+	text-decoration-line: underline !important; 
+}
+#topic {
+	background-image: url('../img/background1.jpg') !important;
+	background-repeat: norepeat;
+	background-position: center;
+	background-size: cover;
+}
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
